@@ -25,6 +25,7 @@
  overflow-x: hidden;
  scroll-behavior: smooth;
  padding: 30px 50px;
+ transition: .2s ease-in-out;
  gap: 20px;
 }
 .chat-bottom{
@@ -79,6 +80,15 @@
     .back-button{
         padding: 0;
         display: block;
+    }
+    .messages{
+        padding: 30px;
+    }
+}
+
+@media (max-width : 648px){
+    .messages{
+        padding: 30px 20px;
     }
 }
 

@@ -35,3 +35,16 @@
     color: rgb(160, 160, 160);
     cursor: pointer;
 }
+
+@media (max-width : 998px){
+    .chat-bottom{
+        gap: 0.7rem;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width : 648px){
+    .chat-bottom{
+        gap: 0.5rem;
+    }
+}

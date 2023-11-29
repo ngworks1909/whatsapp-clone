@@ -28,12 +28,6 @@
  transition: .2s ease-in-out;
  gap: 20px;
 }
-.chat-bottom{
-    background-color: #202c33;
-    height: 65px;
-    gap: 1rem;
-    padding: 0 20px;
-}
 
 .bottom-emoji{
     height: 30px;
@@ -89,6 +83,12 @@
 @media (max-width : 648px){
     .messages{
         padding: 30px 20px;
+    }
+}
+
+@media (max-width : 648px){
+    .messages{
+        padding: 30px 10px;
     }
 }
 

@@ -6,8 +6,8 @@
 }
 
 .bottom-emoji{
-    height: 30px;
-    width: 30px;
+    height: 30px !important;
+    width: 30px !important;
     color: rgb(160, 160, 160);
     cursor: pointer;
 }
@@ -27,4 +27,11 @@
     border: none;
     object-fit: cover;
     outline: none;
+}
+
+.send-emoji{
+    height: 25px !important;
+    width: 25px !important;
+    color: rgb(160, 160, 160);
+    cursor: pointer;
 }

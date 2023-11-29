@@ -47,7 +47,7 @@ export default function Input() {
              <MdOutlineEmojiEmotions className='bottom-emoji'/>
              <FiPlus className='bottom-emoji'/>
              <input type="text" className='text-message' onChange={(e) => setText(e.target.value)} value={text} id='text-message' placeholder='Type a message'/>
-             <button className='bg-transparent' onClick={handleSend} ><IoMdSend className='bottom-emoji'/></button>
+             <button className='bg-transparent' onClick={handleSend} ><IoMdSend className='send-emoji'/></button>
         </div>
       
     </>

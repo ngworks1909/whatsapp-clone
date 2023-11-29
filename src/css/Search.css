@@ -2,14 +2,22 @@
     width: 95%;
     background-color: #202c33;
     margin: 10px auto 10px auto;
-    padding: 0 10px;
     height: 40px;
     border-radius: 10px;
-    gap: 20px;
+    padding: 0 10px;
+}
+.search-box{
+    gap: 10px;
+    width: 100%;
 }
 .search-icon{
     height: 25px;
     width: 25px;
+    color: rgb(160, 160, 160);
+}
+.right-icon{
+    height: 25px;
+    width: 20px;
     color: rgb(160, 160, 160);
 }
 .searchbar{

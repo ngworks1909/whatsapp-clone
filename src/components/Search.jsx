@@ -5,6 +5,7 @@ import '../css/Search.css'
 import { collection, query, where, getDocs ,doc,updateDoc,getDoc,setDoc,serverTimestamp} from "firebase/firestore";
 import { db } from '../firebase';
 import Alert from './Alert';
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Search() {
 
@@ -70,15 +71,17 @@ export default function Search() {
 }
   
 
-  const handleKey = (e) =>{
-    e.code === "Enter" && handleSearch();
-  }
   return (
     <>
       {err && <Alert type={'danger'} message={'User not found...'}/>}
       <div className="search display-flex align-center">
-         <IoSearch className='search-icon'/>
-         <input type="text" name="searchbar" id="searchbar" onKeyDown={handleKey} onChange={(e) => setUsername(e.target.value)} value={username} className='searchbar' placeholder='Search or start new chat'/>
+          <div className="search-box display-flex align-center">
+          <IoSearch className='search-icon'/>
+          <input type="text" name="searchbar" id="searchbar" onChange={(e) => setUsername(e.target.value)} value={username} className='searchbar' placeholder='Search or start new chat'/>
+          </div>
+          <div className="right-arrow">
+             <button className='bg-transparent' onClick={handleSearch}><FaArrowRightLong className='right-icon'/></button>
+          </div>
       </div>
 
       {

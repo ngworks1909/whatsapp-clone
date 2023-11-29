@@ -1,0 +1,30 @@
+.chat-bottom{
+    background-color: #202c33;
+    height: 65px;
+    gap: 1rem;
+    padding: 0 20px;
+}
+
+.bottom-emoji{
+    height: 30px;
+    width: 30px;
+    color: rgb(160, 160, 160);
+    cursor: pointer;
+}
+.text-message{
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: #18232e;
+    border: none;
+    outline: none;
+    color: rgb(160, 160, 160);
+}
+
+.chat-room-image{
+    border-radius: 50%;
+    border: none;
+    object-fit: cover;
+    outline: none;
+}

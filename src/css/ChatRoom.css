@@ -1,0 +1,84 @@
+.chatroom{
+    flex: 2;
+    background-size: cover;
+    background-color: #010c18;
+}
+.chat-header{
+    background-color: #202c33;
+    height: 60px;
+    padding: 0 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #141b1f;
+    
+}
+.chat-head{
+    gap: 0.7rem;
+}
+.chat-room-image{
+    height: 50px;
+    width: 50px;
+}
+.messages{
+ height: calc(100% - 125px);
+ overflow: hidden;
+ overflow-y: scroll;
+ overflow-x: hidden;
+ scroll-behavior: smooth;
+ padding: 30px 50px;
+ gap: 20px;
+}
+.chat-bottom{
+    background-color: #202c33;
+    height: 65px;
+    gap: 1rem;
+    padding: 0 20px;
+}
+
+.bottom-emoji{
+    height: 30px;
+    width: 30px;
+    color: rgb(160, 160, 160);
+    cursor: pointer;
+}
+.text-message{
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: #18232e;
+    border: none;
+    outline: none;
+    color: rgb(160, 160, 160);
+}
+
+.chat-room-image{
+    border-radius: 50%;
+    border: none;
+    object-fit: cover;
+    outline: none;
+}
+
+.chatroom-logo{
+    height: 80px;
+    width: 80px;
+}
+.gap-10{
+    gap: 10px;
+}
+.back-arrow{
+    height: 30px;
+    width: 30px;
+    color: rgb(160, 160, 160);
+}
+
+.back-button{
+    display: none;
+}
+
+@media (max-width : 998px){
+    .back-button{
+        padding: 0;
+        display: block;
+    }
+}
+

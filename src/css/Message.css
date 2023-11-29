@@ -1,0 +1,32 @@
+.message.owner{
+    flex-direction: row-reverse;
+  }
+  .message-item{
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: 400;
+      overflow-wrap: break-word;
+      
+  }
+  .messageContent{
+      max-width: 80%;
+      width: fit-content;
+      height: fit-content;
+      gap: 5px;
+      padding: 20px 20px 10px 20px;
+      
+  }
+  .message-timeline{
+      justify-content: flex-end;
+  }
+  .message-time{
+      font-size: 10px;
+      width: 50px;
+  }
+  .opponent .incoming{
+      background-color: #202c33;
+  }
+  .owner .outgoing{
+      background-color: #005c4b;
+  }
+  

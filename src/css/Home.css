@@ -1,0 +1,17 @@
+.home{
+    height: 100dvh;
+    background-color: #0c1317;
+    padding: 20px;
+    transition: .2s ease-in-out;
+
+}
+.container-1{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width : 648px){
+    .home{
+        padding: 10px;
+    }
+}

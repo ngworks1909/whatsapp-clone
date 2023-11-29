@@ -1,0 +1,76 @@
+.nav-bar{
+    height: 60px;
+    /* background-color: #0c1317; */
+    /* background-color: #0a1014; */
+    padding: 0 15px;
+    background-color: #202c33;
+    justify-content: space-between;
+    /* border-right: 1px solid rgba(255, 255, 255, 0.071); */
+}
+.user-image{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.menu-button:hover .sub-menu{
+    display: block;
+    position: absolute;
+    transform: translateX(-80%);
+    background-color: #1a3d4b ;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.25) ;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 150px;
+}
+
+.signout{
+    background-color: transparent;
+    gap: 10px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+}
+.signout:hover{
+    transition: .4s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.105);
+}
+
+.signout span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.signout-icon{
+    height: 25px;
+    width: 25px;
+}
+
+.dp-menu{
+    display: none;
+}
+
+.nav-left:hover .dp-menu{
+    display: block;
+    position: absolute;
+    background-color: #1a3d4b ;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.25) ;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+}
+
+.nav-text{
+    color: rgb(160,160,160);
+}
+
+
+
+
+
